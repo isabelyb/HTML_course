@@ -1,2 +1,4 @@
 # HTML_course
-HTML Course in Platzi
+HTML Course by Platzi
+
+## Web Developer Fundamentals
