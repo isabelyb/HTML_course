@@ -1,6 +1,12 @@
 # HTML_course
 HTML Course by Platzi
 
+**Content**
+
+[Web Developer Fundamentals](https://github.com/isabelyb/HTML_course#web-developer-fundamentals)
+[HTML: anatomía de una página web](https://github.com/isabelyb/HTML_course#html-anatom%C3%ADa-de-una-p%C3%A1gina-web)
+
+
 ## Web Developer Fundamentals
 
 El **Frontend** debe saber de código que entienda el navegador (HTML, CSS y JavaScript) para poder usar algunos frameworks o librerías que expanden sus capacidades para crear cualquier tipo de interfaces de usuarios. React, Redux, Angular, Bootstrap, Foundation, LESS, Sass, Stylus y PostCSS son algunos de ellos.
