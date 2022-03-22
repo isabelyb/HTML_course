@@ -3,8 +3,8 @@ HTML Course by Platzi
 
 **Content**
 
-[Web Developer Fundamentals](https://github.com/isabelyb/HTML_course#web-developer-fundamentals)
-[HTML: anatomía de una página web](https://github.com/isabelyb/HTML_course#html-anatom%C3%ADa-de-una-p%C3%A1gina-web)
+* [Web Developer Fundamentals](https://github.com/isabelyb/HTML_course#web-developer-fundamentals)
+* [HTML: anatomía de una página web](https://github.com/isabelyb/HTML_course#html-anatom%C3%ADa-de-una-p%C3%A1gina-web)
 
 
 ## Web Developer Fundamentals
