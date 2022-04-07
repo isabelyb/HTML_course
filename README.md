@@ -50,31 +50,43 @@ Estructura básica de HTML en una página Web
 
 ### Index y su estructura básica: Head
 
-En el *head* van todos los archivos importantes para que el proyecto funcione correctamente, algunos como: Estilos, fuentes, descripciones, librerías… 
+En el **head** van todos los archivos importantes para que el proyecto funcione correctamente, algunos como: Estilos, fuentes, descripciones, librerías… 
 Es la parte no visible de nuestra página.
 
 ### Index y su estructura básica: Body
 
-El *body* es la etiqueta que identifica la parte visible del sitio web.
+El **body** es la etiqueta que identifica la parte visible del sitio web.
 
 * Etiquetas contenedoras: Llevan etiquetas dentro y generan la estructura de sitio web.
-    * header: cabecera del documento.
-
+    * **header**: cabecera del documento.
+    * **nav**: para hacer menús de navegación.
+    * **main**: debajo del header, contenido principal.
+    * **footer**: pie de página del documento.
+    * **section**: sirve para diferenciar las secciones principales del contenido.
+    * **article**: diferencia partes del contenido independientes.
+    * **ul y ol**: listas de items. (ul) No ordenada  (ol) Ordenada.
 
 * Etiquetas de contenido: Llevan texto, video, imágenes... cualquier cosa que se pueda renderizar en el navegador.
+      * **li**: List item. Dentro de ul y ol.
 
 💡 Es muy importante usar HTML semántico y no llenar todo de <div> para que el sitio sea mejor interpretado por el navegador y, por lo tanto, más accesible.
 
-Etiquetas del cuerpo del documento (body):
-article: diferencia partes del contenido que pueden vivir por sí mismas.
-nav: para hacer menús de navegación.
-aside: contenido menos relevante, como publicidad, etc.
-section: sirve para diferenciar las secciones principales del contenido.
 
-footer: pie de página del documento.
+### Anatomía de una etiqueta de HTML
+
+Una etiqueta HTML puede tener tantos atributos como desees, y cada atributo tiene su propia función.
+
+
+![tag](assets/tag.png)
+
+
+aside: contenido menos relevante, como publicidad, etc.
+
+
+
 h1 - h6: títulos de nuestro sitio web.
 table: tablas de contenidos, similar a la estructura de las hojas de calculo.
-ul y ol: listas de items.
+
 div: cualquier división para organizar el contenido.
 h1 a h6: son etiquetas para indicar títulos con un estilo que destaca del resto.
 article: es la parte de nuestro contenido que puede vivir por sí mismo. Pueden haber tantos artícle como proyectos o eventos tenga nuestro portafolio.
