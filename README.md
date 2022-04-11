@@ -173,5 +173,16 @@ Es la herramienta con la que se le da estilo a un sitio web: color, tamaño, esp
 
 ➡️ [Code here "Modelo de Cajas"](https://github.com/isabelyb/HTML_course/tree/main/HTML/box_model)
 
-### Herencia
 
+### ¿Cómo se controla el orden al declarar CSS? 
+
+CSS y el navegador van a tener 3 puntos que son importantes para decidir que estilos se van a implementar.
+
+![cascade rules](assets/cascade_rules.png)
+
+### Fuentes Web
+
+![Web fonts](assets/generic_families.png)
+
+
+## REsponsive Design
