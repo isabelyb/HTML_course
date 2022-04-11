@@ -141,3 +141,5 @@ Herramientas para optimizar imágenes:
 * ```<label for="">```: Aquí el nombre del input, que será el mismo ```id``` en la etiqueta ```<input>```.
 * ```<input type="date" id="">```: Tipo date es el tipo para marcar un fecha.
 * ```<input type="text" id="nombre" placeholder="Your name">```: El atributo placeholder poner un texto de ejemplo que visualmente le dice a la persona que llena el formulario que tipo de informacion deberia de ir en esa parte.
+
+    ➡️ [Code here](https://github.com/isabelyb/HTML_course/tree/main/HTML/forms)
