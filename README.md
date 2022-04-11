@@ -167,9 +167,9 @@ Es la herramienta con la que se le da estilo a un sitio web: color, tamaño, esp
 
 ### Modelo de cajas
 
-![box model](assets/boxes.png)
+![box_model](assets/boxes.png)
 
-![box model 1](assets/boxes1.png)
+![box_model1](assets/boxes1.png)
 
 ➡️ [Code here "Modelo de Cajas"](https://github.com/isabelyb/HTML_course/tree/main/HTML/box_model)
 
