@@ -6,8 +6,8 @@ HTML Course by Platzi
 * [Web Developer Fundamentals](https://github.com/isabelyb/HTML_course#web-developer-fundamentals)
 * [HTML: anatomía de una página web](https://github.com/isabelyb/HTML_course#html-anatom%C3%ADa-de-una-p%C3%A1gina-web)
 * [Etiquetas Multimedia](https://github.com/isabelyb/HTML_course#etiquetas-multimedia)
-* [Formularios](https://github.com/isabelyb/HTML_course#formularios)
-* [CSS](https://github.com/isabelyb/HTML_course#css)
+* [Formularios](https://github.com/isabelyb/HTML_course#formularios-form)
+* [CSS](https://github.com/isabelyb/HTML_course#css---cascading-style-sheet)
 
 ## Web Developer Fundamentals
 
