@@ -66,6 +66,7 @@ El **body** es la etiqueta que identifica la parte visible del sitio web.
     * **section**: sirve para diferenciar las secciones principales del contenido.
     * **article**: diferencia partes del contenido independientes.
     * **ul y ol**: listas de items. (ul) No ordenada  (ol) Ordenada.
+    * **figure**: le da un contexto semántico a las imágenes, genera un contenedor para las imágenes.
 
 * Etiquetas de contenido: Llevan texto, video, imágenes... cualquier cosa que se pueda renderizar en el navegador.
     * **li**: List item. Dentro de ul y ol.
@@ -78,10 +79,10 @@ El **body** es la etiqueta que identifica la parte visible del sitio web.
     * **strong**: aplica al texto un formato de negritas.
     * **a**: corresponde a un ancla o enlace a una url interna o externa del documento.
     * **img**: enlazar imágenes en el documento.
-    * **figure**: le da un contexto semántico a las imágenes??.
 
 💡 Es muy importante usar HTML semántico y no llenar todo de ```<div>``` para que el sitio sea mejor interpretado por el navegador y, por lo tanto, más accesible.
 
+➡️ [Code here](https://github.com/isabelyb/HTML_course/tree/main/index)
 
 ### Anatomía de una etiqueta de HTML
 
@@ -91,3 +92,42 @@ Una etiqueta HTML puede tener tantos atributos como desees, y cada atributo tien
 ![tag](assets/tag.png)
 
 ## Etiquetas Multimedia
+
+### Tipos de imágenes para web
+* **Lossless** (sin pérdida): Capturan todos los datos del archivo original. No se pierde nada del archivo original.
+Puede comprimirse, pero podrá reconstruir su imagen al estado original.
+* **Lossy** (con pérdida): Se aproximan a su imagen original. Podría reducir la cantidad de colores en su imagen o analizar la imagen en busca de datos innecesarios. Por consiguiente puede reducir su tamaño, lo que mejora el tiempo de carga de la página, pero pierde su calidad. Los archivos tipo lossy son mucho más livianos que los archivos tipo lossless, por lo que son ideales para usar en sitios en donde el tamaño del archivo y la velocidad de descarga son importantes.
+
+    ![lossless_lossy](assets/lossless_lossy.png)
+
+💡 Tamaño máximo recomendado para una imágen: 70kb
+
+Herramientas para optimizar imágenes:
+
+* **Tiny PNG**: Comprime el tamaño de una imagen, para hacerla más ligera.
+
+* **Verefix**: Elimina los metadatos de una imagen, para reducir su tamaño.
+
+### Etiqueta ```<img>```
+
+* ```<img>``` incrusta una imagen dentro de un documento: Va siempre dentro del contenedor ```<body>```, pues es un elemento visible.
+* Atributo ```src```: ruta de donde se tomará la imagen.
+* Atributo ```alt```: Se usa para dar una descripción de la imagen, es muy importante en accesibilidad.
+    ```<img src=“ubicación de la imagen” alt=“descripción de la imagen”>```
+* ```<figcaption>```: permite darle una pequeña descripción a la imagen, como el autor, fuente o algo por el estilo, que se mostrará usualmente abajo de la imagen.
+
+➡️ [Code here](https://github.com/isabelyb/HTML_course/tree/main/img_tag)
+
+
+💡 Siempre ```<img>``` dentro de ```<figure>``` para darle contexto semántico a la imagen y poder posicionarla dentro del sitio web.
+
+```<figure>``` representa contenido independiente, a menudo con un título. Por lo general, se trata de una imagen, una ilustración, un diagrama, un fragmento de código, o un esquema al que se hace referencia en el texto principal, pero que se puede mover a otra página o a un apéndice sin que afecte al flujo principal.
+
+
+### Etiqueta ```<video>```
+* Atributo ```src```: ruta de donde se tomará el video. Con ```#t=3,10``` empieza en el segundo 3 y termina en el segundo 10.
+* Atributo ```controls```: agrega al video los controles necesarios para reproducir, pausar y adelantar.
+* Atributo ```preload = auto```: hace que el navegador descargue el video, en el momento en el que se acceda a la página.
+
+
+➡️ [Code here](https://github.com/isabelyb/HTML_course/tree/main/video_tag)
