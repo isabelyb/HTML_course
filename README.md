@@ -144,18 +144,34 @@ Herramientas para optimizar imágenes:
 * ```<input type="text" id="nombre" placeholder="Your name">```: El atributo placeholder poner un texto de ejemplo que visualmente le dice a la persona que llena el formulario que tipo de informacion deberia de ir en esa parte.
 
     ➡️ [Code here "Forms"](https://github.com/isabelyb/HTML_course/tree/main/HTML/forms)  
-
-    ➡️ [Code here "Calendar"](https://github.com/isabelyb/HTML_course/tree/main/HTML/calendar)
-      
+    ➡️ [Code here "Calendar"](https://github.com/isabelyb/HTML_course/tree/main/HTML/calendar)     
     ➡️ [Code here "Button"](https://github.com/isabelyb/HTML_course/tree/main/HTML/button)
 
 ## CSS - Cascading style sheet
 
 Es la herramienta con la que se le da estilo a un sitio web: color, tamaño, espacios, lugares de posición.
 
+![css_rules](assets/css_rules.png)
+
 💡 BEM CSS es una metodología de nomenclatura para [definir las clases en los nodos HTML del documento](https://en.bem.info/methodology/faq/#why-bem).
 
-* Una **pseudoclase CSS** es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo,  ```:hover``` aplicará un estilo cuando el usuario haga hover sobre el elemento especificado por el selector.
-```div:hover {
-  background-color: #F89B4D;
-}```
+* Una **pseudoclase CSS** es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. 
+    [Lista de pseudoclases](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes)
+
+* Los **pseudo-elementos** se añaden a los selectores, pero en cambio, no describen un estado especial sino que, permiten añadir estilos a una parte concreta del documento. [Lista de pseudoelementos](https://developer.mozilla.org/es/docs/web/css/pseudo-elements)
+
+
+    ➡️ [Code here "CSS Rules"](https://github.com/isabelyb/HTML_course/tree/main/HTML/general_css)  
+    ➡️ [Code here "Pseudoclases y Pseudoelementos"](https://github.com/isabelyb/HTML_course/tree/main/HTML/pseudo_class)     
+
+
+### Modelo de cajas
+
+![box model](assets/boxes.png)
+
+![box model 1](assets/boxes1.png)
+
+➡️ [Code here "Modelo de Cajas"](https://github.com/isabelyb/HTML_course/tree/main/HTML/box_model)
+
+### Herencia
+
