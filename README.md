@@ -5,6 +5,7 @@ HTML Course by Platzi
 
 * [Web Developer Fundamentals](https://github.com/isabelyb/HTML_course#web-developer-fundamentals)
 * [HTML: anatomía de una página web](https://github.com/isabelyb/HTML_course#html-anatom%C3%ADa-de-una-p%C3%A1gina-web)
+* [Etiquetas Multimedia](https://github.com/isabelyb/HTML_course#etiquetas-multimedia)
 
 
 ## Web Developer Fundamentals
@@ -50,8 +51,8 @@ Estructura básica de HTML en una página Web
 
 ### Index y su estructura básica: Head
 
-En el **head** van todos los archivos importantes para que el proyecto funcione correctamente, algunos como: Estilos, fuentes, descripciones, librerías… 
-Es la parte no visible de nuestra página.
+En el **head** van todos los archivos importantes para que el proyecto funcione correctamente, algunos como: Estilos, fuentes, descripciones, librerías.
+Es la parte no visible de la página.
 
 ### Index y su estructura básica: Body
 
@@ -67,9 +68,19 @@ El **body** es la etiqueta que identifica la parte visible del sitio web.
     * **ul y ol**: listas de items. (ul) No ordenada  (ol) Ordenada.
 
 * Etiquetas de contenido: Llevan texto, video, imágenes... cualquier cosa que se pueda renderizar en el navegador.
-      * **li**: List item. Dentro de ul y ol.
+    * **li**: List item. Dentro de ul y ol.
+    * **aside**: contenido menos relevante, como publicidad, etc.
+    * **h1 - h6**: para indicar títulos con un estilo que destaca del resto.
+    * **table**: tablas de contenidos, similar a la estructura de las hojas de calculo.
+    * **div**: cualquier división para organizar el contenido.
+    * **p**: define el texto de un párrafo.
+    * **small**: aplica una apariencia de texto reducido en tamaño.
+    * **strong**: aplica al texto un formato de negritas.
+    * **a**: corresponde a un ancla o enlace a una url interna o externa del documento.
+    * **img**: enlazar imágenes en el documento.
+    * **figure**: le da un contexto semántico a las imágenes??.
 
-💡 Es muy importante usar HTML semántico y no llenar todo de <div> para que el sitio sea mejor interpretado por el navegador y, por lo tanto, más accesible.
+💡 Es muy importante usar HTML semántico y no llenar todo de ```<div>``` para que el sitio sea mejor interpretado por el navegador y, por lo tanto, más accesible.
 
 
 ### Anatomía de una etiqueta de HTML
@@ -79,20 +90,4 @@ Una etiqueta HTML puede tener tantos atributos como desees, y cada atributo tien
 
 ![tag](assets/tag.png)
 
-
-aside: contenido menos relevante, como publicidad, etc.
-
-
-
-h1 - h6: títulos de nuestro sitio web.
-table: tablas de contenidos, similar a la estructura de las hojas de calculo.
-
-div: cualquier división para organizar el contenido.
-h1 a h6: son etiquetas para indicar títulos con un estilo que destaca del resto.
-article: es la parte de nuestro contenido que puede vivir por sí mismo. Pueden haber tantos artícle como proyectos o eventos tenga nuestro portafolio.
-p: define el texto de un párrafo.
-small: aplica una apariencia de texto reducido en tamaño.
-strong: aplica al texto un formato de negritas.
-a: corresponde a un ancla o enlace a una url interna o externa del documento.
-img: con esta etiqueta podemos enlazar imágenes en el documento.
-figure: le da un contexto semántico a las imágenes.
+## Etiquetas Multimedia
