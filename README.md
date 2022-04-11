@@ -149,4 +149,13 @@ Herramientas para optimizar imágenes:
       
     ➡️ [Code here "Button"](https://github.com/isabelyb/HTML_course/tree/main/HTML/button)
 
-## CSS
+## CSS - Cascading style sheet
+
+Es la herramienta con la que se le da estilo a un sitio web: color, tamaño, espacios, lugares de posición.
+
+💡 BEM CSS es una metodología de nomenclatura para [definir las clases en los nodos HTML del documento](https://en.bem.info/methodology/faq/#why-bem).
+
+* Una **pseudoclase CSS** es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo,  ```:hover``` aplicará un estilo cuando el usuario haga hover sobre el elemento especificado por el selector.
+```div:hover {
+  background-color: #F89B4D;
+}```
