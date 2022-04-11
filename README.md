@@ -6,7 +6,7 @@ HTML Course by Platzi
 * [Web Developer Fundamentals](https://github.com/isabelyb/HTML_course#web-developer-fundamentals)
 * [HTML: anatomía de una página web](https://github.com/isabelyb/HTML_course#html-anatom%C3%ADa-de-una-p%C3%A1gina-web)
 * [Etiquetas Multimedia](https://github.com/isabelyb/HTML_course#etiquetas-multimedia)
-
+* [Formularios](https://github.com/isabelyb/HTML_course#formularios)
 
 ## Web Developer Fundamentals
 
@@ -131,3 +131,13 @@ Herramientas para optimizar imágenes:
 
 
     ➡️ [Code here](https://github.com/isabelyb/HTML_course/tree/main/HTML/video_tag)
+
+
+## Formularios ```<form>```
+
+>"El mejor formulario, es el que no existe"
+
+* Atributo ```action="">```: Cuando se interactura con el formulario y js para enviar informacion, dentro de este se colocala la url o el endpoint que es la url donde se envia la informacion a la Base de datos.
+* ```<label for="">```: Aquí el nombre del input, que será el mismo ```id``` en la etiqueta ```<input>```.
+* ```<input type="date" id="">```: Tipo date es el tipo para marcar un fecha.
+* ```<input type="text" id="nombre" placeholder="Your name">```: El atributo placeholder poner un texto de ejemplo que visualmente le dice a la persona que llena el formulario que tipo de informacion deberia de ir en esa parte.
