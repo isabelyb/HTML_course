@@ -1,0 +1,18 @@
+p {
+	color: blue;
+	font-size: 40px;
+}
+
+/* class */
+
+.paragraph {
+	color: red;
+	font-size: 30px;
+}
+
+/* ID */
+
+#text {
+	color: green;
+	font-size: 20px;
+}
