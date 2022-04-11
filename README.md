@@ -82,7 +82,7 @@ El **body** es la etiqueta que identifica la parte visible del sitio web.
 
 💡 Es muy importante usar HTML semántico y no llenar todo de ```<div>``` para que el sitio sea mejor interpretado por el navegador y, por lo tanto, más accesible.
 
-➡️ [Code here](https://github.com/isabelyb/HTML_course/tree/main/index)
+➡️ [Code here](https://github.com/isabelyb/HTML_course/tree/main/HTML/index)
 
 ### Anatomía de una etiqueta de HTML
 
@@ -116,7 +116,7 @@ Herramientas para optimizar imágenes:
     ```<img src=“ubicación de la imagen” alt=“descripción de la imagen”>```
 * ```<figcaption>```: permite darle una pequeña descripción a la imagen, como el autor, fuente o algo por el estilo, que se mostrará usualmente abajo de la imagen.
 
-    ➡️ [Code here](https://github.com/isabelyb/HTML_course/tree/main/img_tag)
+    ➡️ [Code here](https://github.com/isabelyb/HTML_course/tree/main/HTML/img_tag)
 
 
 💡 Siempre ```<img>``` dentro de ```<figure>``` para darle contexto semántico a la imagen y poder posicionarla dentro del sitio web.
@@ -130,4 +130,4 @@ Herramientas para optimizar imágenes:
 * Atributo ```preload = auto```: hace que el navegador descargue el video, en el momento en el que se acceda a la página.
 
 
-    ➡️ [Code here](https://github.com/isabelyb/HTML_course/tree/main/video_tag)
+    ➡️ [Code here](https://github.com/isabelyb/HTML_course/tree/main/HTML/video_tag)
