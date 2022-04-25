@@ -161,8 +161,8 @@ Es la herramienta con la que se le da estilo a un sitio web: color, tamaño, esp
 * Los **pseudo-elementos** se añaden a los selectores, pero en cambio, no describen un estado especial sino que, permiten añadir estilos a una parte concreta del documento. [Lista de pseudoelementos](https://developer.mozilla.org/es/docs/web/css/pseudo-elements)
 
 
-    ➡️ [Code here "CSS Rules"](https://github.com/isabelyb/HTML_course/tree/main/HTML/general_css)  
-    ➡️ [Code here "Pseudoclases y Pseudoelementos"](https://github.com/isabelyb/HTML_course/tree/main/HTML/pseudo_class)     
+    ➡️ [Code here "CSS Rules"](https://github.com/isabelyb/HTML_course/tree/main/CSS/general_css)  
+    ➡️ [Code here "Pseudoclases y Pseudoelementos"](https://github.com/isabelyb/HTML_course/tree/main/CSS/pseudo_class)     
 
 
 ### Modelo de cajas
@@ -171,7 +171,7 @@ Es la herramienta con la que se le da estilo a un sitio web: color, tamaño, esp
 
 ![box_model1](assets/boxes1.png)
 
-➡️ [Code here "Modelo de Cajas"](https://github.com/isabelyb/HTML_course/tree/main/HTML/box_model)
+➡️ [Code here "Modelo de Cajas"](https://github.com/isabelyb/HTML_course/tree/main/CSS/box_model)
 
 
 ### ¿Cómo se controla el orden al declarar CSS? 
