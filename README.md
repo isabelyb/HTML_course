@@ -185,4 +185,35 @@ CSS y el navegador van a tener 3 puntos que son importantes para decidir que est
 ![Web fonts](assets/generic_families.png)
 
 
-## REsponsive Design
+## Responsive Design
+
+Son todas la técnicas que se usan para adaptar las aplicaciones web a la mayor cantidad de pantallas.
+
+**Break points:** Son la dimensión en el viepor o with de la pantalla en la que se genera un cambio, este cambio es en el que se puede reposicionar o redimensionar los elementos y contenedores para que se pueda ver bien el sitio web sin importar el dispositivo.
+
+
+💡 La tendencia es a desarrollar *mobile first* o *mobil only* sobre *desktop first*. Es decir, primero diseñar para celular, luego un break point para tablet y finalmente un break point para PC.
+
+**Media Queries:** Para aplicar media queries con buenas prácticas, hay que hacerlo en el header. Porque así solo se descarga el código necesario según el dispositivo, mientras que en CSS se descarga todo sin importar nada.
+```
+@media (min-width: #;) {"código que se aplicará"}
+```
+
+### Responsive Web Design Patterns:
+
+**Mostly Fluid:** consiste, principalmente, en una cuadrícula fluida. Por lo general, en las pantallas grandes o medianas se mantiene el mismo tamaño y simplemente se ajustan los márgenes en las más anchas.
+
+![mostly_fluid](assets/mostly_fluid.png)
+
+**Layout Shifter:** El patrón Layout shifter es el más adaptable, ya que posee varios puntos de interrupción en diferentes anchos de pantalla.
+
+La clave para este diseño es el desplazamiento del contenido, en lugar de su reprocesamiento y colocación debajo de otras columnas. Debido a las diferencias significativas entre cada punto de interrupción principal, es más complejo de mantener, y es posible que se deban realizar cambios dentro de los elementos, no solo en el diseño de contenido general.
+
+![layout_shifter](assets/layout_shifter.png)
+
+**Column drop:** En el caso de los diseños con varias columnas de ancho completo, durante el proceso de colocación de columnas éstas únicamente se colocan de forma vertical debido a que el ancho de la ventana es demasiado reducido para el contenido.
+
+![column_drop](assets/column_drop.png)
+
+
+## Accesibilidad
