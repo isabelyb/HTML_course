@@ -8,6 +8,8 @@ HTML Course by Platzi
 * [Etiquetas Multimedia](https://github.com/isabelyb/HTML_course#etiquetas-multimedia)
 * [Formularios](https://github.com/isabelyb/HTML_course#formularios-form)
 * [CSS](https://github.com/isabelyb/HTML_course#css---cascading-style-sheet)
+* [Responsive Design](https://github.com/isabelyb/HTML_course#responsive-design)
+* [Accesibilidad](https://github.com/isabelyb/HTML_course#accesibilidad)
 
 ## Web Developer Fundamentals
 
